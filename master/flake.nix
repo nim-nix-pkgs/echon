@@ -11,6 +11,7 @@
   inputs.src-Echon-master.ref   = "refs/heads/master";
   inputs.src-Echon-master.owner = "eXodiquas";
   inputs.src-Echon-master.repo  = "Echon";
+  inputs.src-Echon-master.dir   = "";
   inputs.src-Echon-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

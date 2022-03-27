@@ -11,6 +11,7 @@
   inputs.src-Echon-1_0_0.ref   = "refs/tags/1.0.0";
   inputs.src-Echon-1_0_0.owner = "eXodiquas";
   inputs.src-Echon-1_0_0.repo  = "Echon";
+  inputs.src-Echon-1_0_0.dir   = "";
   inputs.src-Echon-1_0_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
